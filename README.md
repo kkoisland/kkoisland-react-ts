@@ -45,3 +45,26 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 # kkoisland-react-ts
+
+### command line to create react app
+```tsx
+cd github  
+npx create-react-app kkoisland-react-ts --template typescript　// Creaet react app  
+cd kkoisland-react-ts  
+npm start  
+`http://localhost:3000/` // open  
+```
+
+### push to github
+```tsx
+cd kkoisland-react-ts 
+echo "# kkoisland-react-ts" >> README.md
+git init
+git add .
+git commit -m "initial commit"
+git branch -M main
+git remote add origin git@github.com:kkoisland/kkoisland-react-ts.git
+git push -u origin main
+```
+
+### Install
